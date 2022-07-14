@@ -1,0 +1,38 @@
+.container {
+  width: 1200px;
+  margin: 20px auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.buttons {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.buttons button {
+  margin-right: 10px;
+}
+
+.character {
+  display: flex;
+}
+.character img {
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.character .meta {
+}
+.character .meta h1 {
+  font-size: 16px;
+  font-weight: block;
+  margin: 0px 0px 10px 0px;
+}
+.character .meta .species {
+  font-size: 12px;
+  color: #494949;
+  margin-bottom: 15px;
+}
